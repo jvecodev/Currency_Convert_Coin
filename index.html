@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice Coin</title>
+    <link rel="stylesheet" href="./assets/coin.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+</head>
+<body>
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+      <script src="./assets/darkmode.js"></script>
+      <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+ 
+    
+    <main class="content">
+        <div class="images-container">
+            <div class="images">
+                <img src="flags/bitcoin.png" alt="Bitcoin Flag">
+                <img src="flags/brazil-.png" alt="Brazil Flag">
+                <img src="flags/european-union.png" alt="EU Flag">
+                <img src="flags/japan.png" alt="Japan Flag">
+                <img src="flags/united-states.png" alt="USA Flag">
+                <img src="flags/russia.png" alt="">
+                <img src="flags/bitcoin.png" alt="Bitcoin Flag">
+                <img src="flags/brazil-.png" alt="Brazil Flag">
+                <img src="flags/china.png" alt="China Flag">
+                <img src="flags/european-union.png" alt="EU Flag">
+                <img src="flags/japan.png" alt="Japan Flag">
+                <img src="flags/united-states.png" alt="USA Flag">
+                <img src="flags/russia.png" alt="">
+                <img src="flags/bitcoin.png" alt="Bitcoin Flag">
+                <img src="flags/brazil-.png" alt="Brazil Flag">
+                <img src="flags/china.png" alt="China Flag">
+                <img src="flags/european-union.png" alt="EU Flag">
+                <img src="flags/japan.png" alt="Japan Flag">
+                <img src="flags/united-states.png" alt="USA Flag">
+                <img src="flags/russia.png" alt="">
+                <img src="flags/bitcoin.png" alt="Bitcoin Flag">
+                <img src="flags/brazil-.png" alt="Brazil Flag">
+                <img src="flags/china.png" alt="China Flag">
+                <img src="flags/european-union.png" alt="EU Flag">
+                <img src="flags/japan.png" alt="Japan Flag">
+                <img src="flags/united-states.png" alt="USA Flag">
+                <img src="flags/russia.png" alt="">
+                <img src="flags/bitcoin.png" alt="Bitcoin Flag">
+                <img src="flags/brazil-.png" alt="Brazil Flag">
+                <img src="flags/china.png" alt="China Flag">
+
+
+            </div>
+         </div>
+
+        <div class="conteudo">
+            <h1> ChoiceCoin <i class="bi bi-cash-coin"></i></h1>
+            <form action="convert.js" method="post">
+                <input id="value" type="number" placeholder="Value">
+                
+            </form>
+            <select name="coin" id="coinfrom" class="coinfrom">
+                
+
+            </select>
+            <button class="btn-arrow" id="swap">
+                <span class="arrow"> <i class="bi bi-arrow-down-up"></i></span>
+            </button>
+            <select name="coin" id="cointo" class="cointo">
+            
+            </select>
+            
+
+        </div>
+        
+        <button onclick="setResultado" type="submit" id="btn" >Calculater<i class="bi bi-calculator"></i></button>
+        
+        <div id="result"></div>
+        <div id="cotacao"></div>
+        <div id="valor"></div>
+
+
+    </main>
+
+    <script src="./assets/convert.js"></script>
+
+    
+</body>
+</html>
