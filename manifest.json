@@ -6,6 +6,7 @@
     "start_url": "/Currency_Convert_Coin/",
     "name": "ChoiceCoin",
     "short_name": "Coin",
+    "description": "Currency Converter",
     "icons": [
         {
             "src": "icon-192x192.png",
