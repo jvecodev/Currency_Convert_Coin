@@ -15,7 +15,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #dbd7d7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@ button#btn.dark{
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
     width: 600px;
     
 
@@ -191,7 +191,7 @@ button#btn.dark{
 @media screen and (max-width: 700px) {
 
     .images-container {
-        width: 400px; /* Ajuste a largura do container conforme necessário */
+        width: 250px; /* Ajuste a largura do container conforme necessário */
         overflow: hidden;
         border-radius: 10px;
         display: flex;
@@ -201,7 +201,7 @@ button#btn.dark{
     }
     .content {
         flex-direction: column;
-        width: 400px;
+        width: 300px;
         padding-top: 30px;
         height: 80%;
 

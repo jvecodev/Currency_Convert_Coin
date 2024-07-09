@@ -1,6 +1,6 @@
 {
-    "theme_color": "#e335f6",
-    "background_color": "#faf9f8",
+    "theme_color": "#ffff",
+    "background_color": "#2A1A61",
     "display": "fullscreen",
     "scope": "/Currency_Convert_Coin/",
     "start_url": "/Currency_Convert_Coin/",
