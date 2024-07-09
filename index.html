@@ -21,7 +21,12 @@
       </div>
       <script src="./assets/darkmode.js"></script>
       <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
- 
+      
+      <script>
+        if(typeof navigator.serviceWorker !== 'undefined'){
+            navigator.serviceWorker.register('pwabuilder-sw.js')
+        }
+     </script>
     
     <main class="content">
         <div class="images-container">
