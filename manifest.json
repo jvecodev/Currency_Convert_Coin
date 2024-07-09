@@ -1,49 +1,31 @@
-
 {
-    "background_color": "#d800ff",
-    "dir": "ltr",
+    "theme_color": "#e335f6",
+    "background_color": "#faf9f8",
     "display": "fullscreen",
-    "name": "Choice Coin",
-    "orientation": "any",
-    "scope": "/Currency_Convert_Coin/",
-    "short_name": "Choice Coin",
-    "start_url": "/Currency_Convert_Coin/",
-    "theme_color": "#ffffff",
-    "id": "https://jvecodev.github.io/Currency_Convert_Coin/",
-    "description": "Escolher e Converter",
-    "lang": "en",
-    "display_override": [
-      "browser",
-      "fullscreen",
-      "window-controls-overlay",
-      "standalone",
-      "minimal-ui"
-    ],
-    "categories": [
-      "business",
-      "finance",
-      "politics"
-    ],
+    "scope": "/Currency_Convert_Coin",
+    "start_url": "/Currency_Convert_Coin",
+    "name": "ChoiceCoin",
+    "short_name": "Coin",
     "icons": [
         {
-            "src": "icon-192x192.jpg",
+            "src": "/icon-192x192.png",
             "sizes": "192x192",
-            "type": "image/jpg"
+            "type": "image/png"
         },
         {
-            "src": "icon-256x256.jpg",
+            "src": "/icon-256x256.png",
             "sizes": "256x256",
-            "type": "image/jpg"
+            "type": "image/png"
         },
         {
-            "src": "icon-384x384.jpg",
+            "src": "/icon-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "icon-512x512.jpg",
+            "src": "/icon-512x512.png",
             "sizes": "512x512",
-            "type": "image/jpg"
+            "type": "image/png"
         }
     ]
-  }
+}
