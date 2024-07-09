@@ -321,7 +321,7 @@ select{
     margin-left: 5px;
     font-size: 1.5rem;
 }
-#result{
+#result,#cotacao,#valor{
     font-size: 20px;
     color: #007a6a;
 
