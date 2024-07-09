@@ -1,13 +1,29 @@
 {
-    "theme_color": "purple",
-    "background_color": "#ffffff",
-    "display": "fullscreen",
-    "scope": "/Currency_Convert_Coin/",
-    "start_url": "/Currency_Convert_Coin/",
-    "name": "ChoiceCoin",
-    "short_name": "ChoiceCoin",
-    "description": "Acompanhe em tempo real oq movimenta o mundo",
-    "icons": [
+  "background_color": "#9f00ff",
+  "dir": "auto",
+  "display": "fullscreen",
+  "name": "Choice Coin",
+  "orientation": "natural",
+  "scope": "/Currency_Convert_Coin/",
+  "short_name": "Choice Coin",
+  "start_url": "/Currency_Convert_Coin/",
+  "theme_color": "#ffffff",
+  "id": "https://jvecodev.github.io/Currency_Convert_Coin/",
+  "description": "Acompanhe em tempo real oq movimenta o mundo",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "business",
+    "entertainment",
+    "finance"
+  ],
+  "icons": [
         {
             "src": "icon-192x192.png",
             "sizes": "192x192",
