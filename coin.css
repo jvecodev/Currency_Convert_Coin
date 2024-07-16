@@ -1,0 +1,35 @@
+/* styles.css */
+.select-container {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select option {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.coinfrom, .cointo {
+    width: 100px;
+}
+
+.btn-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+}

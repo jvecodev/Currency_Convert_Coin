@@ -170,6 +170,9 @@ const btn = document.getElementById('btn');
 const exRatetxt = document.getElementById('result');
 const cotacaotxt = document.getElementById('cotacao');
 const valuetxt = document.getElementById('valor');
+const BTNRevert = document.getElementById('swap');
+
+
 
 function populateSelects() {
     Object.keys(country_list).forEach((currency) => {
@@ -205,10 +208,33 @@ function populateSelects() {
         }
 
     }
-    window.addEventListener('load', populateSelects);
+
+
+
+
+
+
+    addEventListener('load', populateSelects);
     btn.addEventListener('click', (e) => {
         e.preventDefault();
         getExchangeRate();
+    });
+
+BTNRevert.addEventListener('click', () => {
+    const temp = coinFrom.value;
+    coinFrom.value = coinTo.value;
+    coinTo.value = temp;
 });
 
+window.addEventListener('keypress', function(e){
+    if(e.key === 'Enter'){
+        getExchangeRate();
+
+    }
+});
+
+
+
+
 populateSelects();
+
