@@ -226,9 +226,10 @@ BTNRevert.addEventListener('click', () => {
     coinTo.value = temp;
 });
 
-window.addEventListener('keypress', function(e){
+addEventListener('keypress', function(e){
+    
     if(e.key === 'Enter'){
-        getExchangeRate();
+        this.alert('Estamos trabalhando nisso');
 
     }
 });
